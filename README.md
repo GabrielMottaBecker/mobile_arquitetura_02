@@ -75,7 +75,7 @@ lib/
 │   │   ├── product_remote_datasource.dart          # Requisição HTTP à API
 │   │   └── product_local_datasource.dart           # Cache em memória (NOVO)
 │   └── repositories/
-│       └── product_repository.dart                 # Decide entre remoto e cache (NOVO)
+│       └── product_repository_impl.dart            # Decide entre remoto e cache (NOVO)
 │
 └── presentation/
     ├── viewmodels/
